@@ -1,0 +1,281 @@
+body{
+    margin: 0
+}
+.l-blue-bg{
+    background: #f8fbfe;
+}
+
+
+.blue{
+    color: #191970;
+}
+
+.whole-page{
+    font-family: Raleway, sans-serif
+}
+
+.violet{
+    color: #8A2BE2;
+}
+
+.top-head{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    border: #C0C0C0 1px solid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.tools{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.searcher{
+    height: 60px;
+}
+
+.tool{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.link{
+     text-decoration: none;
+    color: #8A2BE2;
+}
+.link:hover{
+    font-size: 105%;
+}
+
+.searcher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searcher .button{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.searcher .button button{
+    color: white;
+    padding: 5px 8px 5px 8px;
+    background: #4169E1;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    border-color: #4169E1 ;
+}
+
+.searching-area input{
+    height: 25px;
+    border-color: #C0C0C0;
+    border-radius: 5px;
+}
+
+.searching-area input:focus{
+    border-color: red;
+}
+
+.main-block{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello-block{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-block h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.hello-block .paragraph{
+    font-size: 23px;
+    width: 1000px;
+    color: dimgrey;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.hello-button button{
+    background: #4169E1;
+    border-color: #4169E1;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.hello-button{
+    margin-top: 30px;
+}
+
+.regards-info h1{
+    font-size: 50px;
+}
+.regards-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.regards{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 250px;
+}
+.regard{
+    text-align: center;
+}
+
+.regard .regard-p{
+    font-weight: bold;
+    color: #4169E1;
+    margin-top: -25px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery-tophead{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row;
+    height: 700px;
+    width: 500px;
+    align-items: inherit;
+    justify-content: space-around;
+}
+
+
+.g-group2 img{
+    height: 210px;
+}
+
+.g-group1 img{
+    height: 140px;
+}
+
+.g-group1{
+    display: flex;
+    flex-flow: column;
+    height: 90%;
+    justify-content: space-around;
+    align-items: inherit;
+}
+
+.g-group2{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: inherit;
+}
+
+.team-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 550px;
+}
+
+.team-description{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-description-p{
+    font-size: 19px;
+    text-align: center;
+    width: 950px;
+}
+
+.team-description-h{
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+
+
+.team-members{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.member{
+    text-align: center;
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.member img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.page-end{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-end-p{
+    text-align: center;
+    color: grey;
+    line-height: 25px;
+}
+
+
+
